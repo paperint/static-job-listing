@@ -1,5 +1,5 @@
 # Netlify
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site on Netlify](https://dancing-squirrel-25a20f.netlify.app/)
 
 ![Design](./src/assets/design/active-states.jpg)
 
