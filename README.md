@@ -1,7 +1,7 @@
 # Netlify
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-![Design](./src/asset)
+![Design](./src/assets/design/active-states.jpg)
 
 # React + Vite
 
