@@ -8,6 +8,13 @@ function Homepage() {
   const [search, setSearch] = useState([]);
   const [newData, setNewData] = useState(null);
   const list = newData !== null ? newData : data;
+  const [alertShown, setAlertShown] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setAlertShown(false);
+    }, 5000);
+  });
 
   const handlerClick = (value) => {
     if (!search.includes(value)) {
@@ -46,6 +53,13 @@ function Homepage() {
 
   return (
     <>
+      {alertShown && (
+        <div className="absolute w-full rounded-full max-w-7xl top-10 ">
+          <p className="w-full text-center ease-in-out max-w-7xl animate-bounce">
+            Click Tag To Filter
+          </p>
+        </div>
+      )}
       <header>
         <HeaderCover />
       </header>
